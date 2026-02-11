@@ -19,8 +19,17 @@ By integrating PM into the production flow, the model reduces machine downtime a
   + Sequential processing
   + No-overlap production
   + Fixed PM intervals
+
 **2. GA performance**
 Executing over 1000 generations to find the near-optimal schedule:
 - Initial Makespan: 149.48 hours
 - Optimized Makespan: 141.22 hours
-- Improvement: 5.5% reduction in total production time.
+- Improvement: 5.5% reduction in total production time.  
+
+**3. Optimization results**  
+Our hybrid MILP-GA model significantly improved the production flow:  
+- **Baseline Makespan**: 149.48 hours  
+- **Optimized Makespan**: 141.22 hours (~5.5% improvement) [cite: 848]  
+
+![Comparison Chart](./result_comparison_of_MILP_and_GA.png)  
+![Sensitivity Analysis](./comparison_of_sensitivity_across_factors.png)
