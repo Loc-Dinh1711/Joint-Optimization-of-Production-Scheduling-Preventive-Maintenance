@@ -11,7 +11,7 @@ By integrating PM into the production flow, the model reduces machine downtime a
 - Libraries:
   + `PuLP`: For MILP modeling and solving.
   + `Pandas` & `NumPy`: For data manipulation and processing.
-  + `Matplotlib: For visualizing optimization results and Gantt charts.
+  + `Matplotlib`: For visualizing optimization results and Gantt charts.
 ## Methodologies & Key results
 **1. Mathematical formulation**
 - Objective function: Minimize the makespan of the last job.
@@ -31,5 +31,8 @@ Our hybrid MILP-GA model significantly improved the production flow:
 - **Baseline Makespan**: 149.48 hours  
 - **Optimized Makespan**: 141.22 hours (~5.5% improvement) [cite: 848]  
 
+
 ![Comparison Chart](result/result_comparison_of_MILP_and_GA.png)  
-![Sensitivity Analysis](./comparison_of_sensitivity_across_factors.png)
+
+
+![Sensitivity Analysis](result/comparison_of_sensitivity_across_factors.png)
