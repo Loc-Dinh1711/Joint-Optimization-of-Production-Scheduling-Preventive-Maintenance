@@ -31,5 +31,5 @@ Our hybrid MILP-GA model significantly improved the production flow:
 - **Baseline Makespan**: 149.48 hours  
 - **Optimized Makespan**: 141.22 hours (~5.5% improvement) [cite: 848]  
 
-![Comparison Chart](./result_comparison_of_MILP_and_GA.png)  
+![Comparison Chart](result/result_comparison_of_MILP_and_GA.png)  
 ![Sensitivity Analysis](./comparison_of_sensitivity_across_factors.png)
